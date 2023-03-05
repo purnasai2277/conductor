@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk
+FROM openjdk:16.0.2-jdk
 
 WORKDIR /workspace/conductor
 COPY . /workspace/conductor
